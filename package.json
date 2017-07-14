@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
-    "build": "webpack --progress --colors --config ./webpack.production.config.js",
+    "build": "webpack -p --progress --colors --config ./webpack.production.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,9 @@
       "es2015",
       "react",
       "stage-2"
+    ],
+    "plugins": [
+      "styled-jsx/babel"
     ]
   },
   "devDependencies": {
@@ -30,6 +33,7 @@
   },
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "styled-jsx": "^1.0.8"
   }
 }

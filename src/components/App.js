@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('http://localhost:8080/test.xml')
+    fetch(`${window.location.href}/test.xml`)
       .then(res => res.text())
       .then(xmlString => {
         const parser = new DOMParser()
@@ -26,8 +26,7 @@ class App extends Component {
 
   render() {
     if (this.state.xmlDoc === '') return <span>Loading...</span>
-    
-    // console.log(this.state.xmlDoc)
+
     const films = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('film'))
     const days = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('schedule_day'))
 
