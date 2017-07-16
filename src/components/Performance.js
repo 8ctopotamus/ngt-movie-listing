@@ -15,7 +15,8 @@ const Performance = (props) => {
             return (
              <a href={`https://omniwebticketing.com/avalon/${url}`}
                target="_blank"
-               className="button">
+               className="button"
+               key={i}>
                { showtime }
              </a>
             )

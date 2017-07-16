@@ -9,32 +9,31 @@ const Film = (props) => {
   const runtime = props.data.getElementsByTagName("runtime")[0].childNodes[0].nodeValue
   const synopsis = props.data.getElementsByTagName("synopsis")[0].childNodes[0].nodeValue
   let poster = props.data.getElementsByTagName("poster")[0].childNodes[0].nodeValue
-  poster = poster.replace(' ', '%20')
-  poster = poster.replace('.jpg', '.png')
+  poster = poster.replace(' ', '%20').replace('.jpg', '.png')
   const thumb = props.data.getElementsByTagName("thumbnail")[0].childNodes[0].nodeValue
   const performances = Array.prototype.slice.call(props.data.getElementsByTagName('performance'))
-
   let datesArray = []
-  const consolidatePerformanceDates = (performance) => {
-    const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
-    const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
-    const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
 
-    // if (datesArray.includes(date)) return
+  const consolidatePerformanceDates = () => {
+    return performances.map((performance, i) => {
+      const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
+      const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
 
-    // find showtime
-    let showtimesArr = []
-    showtimes.forEach((showtime) => {
-      showtimesArr.push(showtime.childNodes[0].nodeValue)})
+      if (datesArray.includes(date)) return
 
-    datesArray.push(date)
+      // find showtime
+      const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
+      let showtimesArr = []
 
-    return <Performance data={performance} showtimes={showtimesArr} />
+      showtimes.forEach((showtime) => {
+        if (showtimesArr.includes(showtime.childNodes[0].nodeValue)) return
+        showtimesArr.push(showtime.childNodes[0].nodeValue)
+      })
+
+      datesArray.push(date)
+      return <Performance data={performance} showtimes={showtimesArr} key={i} />
+    })
   }
-
-
-  console.log(performances.map(consolidatePerformanceDates))
-
 
   return (
     <div className="film">
@@ -58,9 +57,7 @@ const Film = (props) => {
             </tr>
           </thead>
           <tbody>
-          {
-            performances.map(consolidatePerformanceDates)
-          }
+            { consolidatePerformanceDates() }
           </tbody>
         </table>
       </div>
