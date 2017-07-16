@@ -12,9 +12,9 @@ class FilmList extends Component {
   }
 
   componentWillMount() {
-    // show one instance of each film
+    // we need to show one instance of each film
     let filmsArr = []
-    let filmsIDArr = [] // for easy checking
+    let filmsIDArr = [] // probaby a better way to do this, but for easy checking
     this.props.films.forEach((film, i) => {
       const id = film.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
       const performances = Array.prototype.slice.call(film.getElementsByTagName('performance'))
@@ -32,7 +32,7 @@ class FilmList extends Component {
           targetFilm.getElementsByTagName('performances')[0].append(perf)
         })
 
-        // do not add film to array if already added
+        // do not add film to array if one with same title is already added
         return
       }
 

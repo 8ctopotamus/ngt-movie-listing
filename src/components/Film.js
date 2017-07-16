@@ -14,6 +14,28 @@ const Film = (props) => {
   const thumb = props.data.getElementsByTagName("thumbnail")[0].childNodes[0].nodeValue
   const performances = Array.prototype.slice.call(props.data.getElementsByTagName('performance'))
 
+  let datesArray = []
+  const consolidatePerformanceDates = (performance) => {
+    const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
+    const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
+    const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
+
+    // if (datesArray.includes(date)) return
+
+    // find showtime
+    let showtimesArr = []
+    showtimes.forEach((showtime) => {
+      showtimesArr.push(showtime.childNodes[0].nodeValue)})
+
+    datesArray.push(date)
+
+    return <Performance data={performance} showtimes={showtimesArr} />
+  }
+
+
+  console.log(performances.map(consolidatePerformanceDates))
+
+
   return (
     <div className="film">
       <div>
@@ -21,15 +43,28 @@ const Film = (props) => {
         {/* <img src={`https://omniwebticketing.com/files-theatre-avalon/images/posters/${poster}`} alt={title} /> */}
       </div>
       <div>
-        {id}
         <h2>{title}</h2>
         <strong>{`${genre} | ${rating} | ${runtime}`}</strong>
         <p>{ synopsis }</p>
-        <a href="#" className="button">BUY TICKETS</a>
-        {
-          performances.map((perf, i) => <Performance data={perf} key={i} />)
-        }
+        <table>
+          <thead>
+            <tr>
+              <td>
+                date
+              </td>
+              <td>
+                Buy Tickets
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+          {
+            performances.map(consolidatePerformanceDates)
+          }
+          </tbody>
+        </table>
       </div>
+
       <style jsx>{`
         .film { display: flex }
         .film > div {margin-right: 20px;}
