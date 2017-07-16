@@ -1,7 +1,7 @@
 {
-  "name": "minimal-react-boilerplate",
+  "name": "ngt-movie-listing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reads omniweb XML file and generates movie listing",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zylo, LLC",
   "license": "ISC",
   "babel": {
     "presets": [

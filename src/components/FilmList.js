@@ -1,30 +1,62 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Film from './Film'
 
-const FilmList = (props) => {
-  // console.log(props.films)
-  // console.log(props.days)
+class FilmList extends Component {
+  constructor(props) {
+    super(props)
 
-  // get perfomances for each film
-  props.days.forEach(day => console.log(day))
+    this.state = {
+      films: [],
+      loading: true
+    }
+  }
 
-  // show one instance of each film
-  // add performances to each film
-  const filmsArr = []
-  const filteredFilms = props.films.filter((film, i) => {
-    const id = film.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
-    if (filmsArr.includes(id)) return
-    filmsArr.push(id)
-    return film
-  })
+  componentWillMount() {
+    // show one instance of each film
+    let filmsArr = []
+    let filmsIDArr = [] // for easy checking
+    this.props.films.forEach((film, i) => {
+      const id = film.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
+      const performances = Array.prototype.slice.call(film.getElementsByTagName('performance'))
 
-  return (
-    <div className="film-list">
-      {
-        filteredFilms.map((film, i) => <Film data={film} key={i} />)
+      // add performances to film in state
+      if (filmsIDArr.includes(id)) {
+        // find film with same id in filmsArr
+        const targetFilm = filmsArr.filter((f) => {
+          const fId = f.getElementsByTagName('titlecode')[0].childNodes[0].nodeValue
+          return id === fId
+        })[0]
+
+        // add current film's performances to it
+        performances.forEach(perf => {
+          targetFilm.getElementsByTagName('performances')[0].append(perf)
+        })
+
+        // do not add film to array if already added
+        return
       }
-    </div>
-  )
+
+      filmsIDArr.push(id)
+      filmsArr.push(film)
+    })
+
+    this.setState({
+      films: filmsArr,
+      loading: false
+    })
+  }
+
+  render() {
+    if (this.state.loading) return <p>Loading...</p>
+
+    return (
+      <div className="film-list">
+        {
+          this.state.films.map((film, i) => <Film data={film} key={i} />)
+        }
+      </div>
+    )
+  }
 }
 
 export default FilmList

@@ -1,4 +1,5 @@
 import React from 'react'
+import Performance from './Performance'
 
 const Film = (props) => {
   const id = props.data.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
@@ -11,6 +12,7 @@ const Film = (props) => {
   poster = poster.replace(' ', '%20')
   poster = poster.replace('.jpg', '.png')
   const thumb = props.data.getElementsByTagName("thumbnail")[0].childNodes[0].nodeValue
+  const performances = Array.prototype.slice.call(props.data.getElementsByTagName('performance'))
 
   return (
     <div className="film">
@@ -24,8 +26,10 @@ const Film = (props) => {
         <strong>{`${genre} | ${rating} | ${runtime}`}</strong>
         <p>{ synopsis }</p>
         <a href="#" className="button">BUY TICKETS</a>
+        {
+          performances.map((perf, i) => <Performance data={perf} key={i} />)
+        }
       </div>
-
       <style jsx>{`
         .film { display: flex }
         .film > div {margin-right: 20px;}
