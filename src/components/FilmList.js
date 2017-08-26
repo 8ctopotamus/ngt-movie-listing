@@ -26,12 +26,10 @@ class FilmList extends Component {
           const fId = f.getElementsByTagName('titlecode')[0].childNodes[0].nodeValue
           return id === fId
         })[0]
-
         // add current film's performances to it
         performances.forEach(perf => {
           targetFilm.getElementsByTagName('performances')[0].append(perf)
         })
-
         // do not add film to array if one with same title is already added
         return
       }

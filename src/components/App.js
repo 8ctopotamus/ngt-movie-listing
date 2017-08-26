@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import xmlToJson from '../utils/xmlToJson'
 import FilmList from './FilmList'
 
 class App extends Component {
@@ -9,7 +8,10 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch(`${window.location.href}/test.xml`)
+    console.log(window.location.href)
+    const XMLFileURL = `${window.location.href.replace('test', '')}/OnlineSchedule_26203.xml`
+
+    fetch(XMLFileURL)
       .then(res => res.text())
       .then(xmlString => {
         const parser = new DOMParser()
@@ -25,7 +27,8 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.xmlDoc === '') return <span>Loading...</span>
+    if (this.state.xmlDoc === '') {
+        return <span>Loading...</span>}
 
     const films = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('film'))
     const days = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('schedule_day'))

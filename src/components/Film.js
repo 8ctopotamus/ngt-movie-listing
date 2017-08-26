@@ -14,12 +14,45 @@ const Film = (props) => {
   const performances = Array.prototype.slice.call(props.data.getElementsByTagName('performance'))
   let datesArray = []
 
+  // TODO: test if images load
+  function testImage(url) {
+    // Define the promise
+    const imgPromise = new Promise(function(resolve, reject) {
+      // Create the image
+      const imgElement = new Image()
+      // When image is loaded, resolve the promise
+      imgElement.addEventListener('load', function imgOnLoad() {
+          resolve(this)
+      })
+      // When there's an error during load, reject the promise
+      imgElement.addEventListener('error', function imgOnError() {
+          reject()
+      })
+      // Assign URL
+      imgElement.src = url
+    })
+    return imgPromise
+  }
+
+  testImage(`https://omniwebticketing.com/files-theatre-avalon/images/posters/${poster}`)
+    .then(
+      function fulfilled(img) {
+        console.log('That image is found and loaded', img)
+        return img
+      },
+      function rejected() {
+        console.log('That image was not found')
+        return <img src="//placehold.it/200x300" />
+      }
+  )
+
+
   const consolidatePerformanceDates = () => {
     return performances.map((performance, i) => {
       const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
       const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
 
-      if (datesArray.includes(date)) return
+      if ( datesArray.includes(date) ) return
 
       // find showtime
       const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
@@ -38,8 +71,7 @@ const Film = (props) => {
   return (
     <div className="film">
       <div>
-        <img src="//placehold.it/200x300" />
-        {/* <img src={`https://omniwebticketing.com/files-theatre-avalon/images/posters/${poster}`} alt={title} /> */}
+        <img src={`https://omniwebticketing.com/files-theatre-avalon/images/posters/${poster}`} alt={title} />
       </div>
       <div>
         <h2>{title}</h2>
@@ -48,12 +80,12 @@ const Film = (props) => {
         <table>
           <thead>
             <tr>
-              <td>
-                date
-              </td>
-              <td>
+              <th>
+                Date
+              </th>
+              <th>
                 Buy Tickets
-              </td>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -63,8 +95,24 @@ const Film = (props) => {
       </div>
 
       <style jsx>{`
-        .film { display: flex }
-        .film > div {margin-right: 20px;}
+        h2,
+        p,
+        strong,
+        table {
+          color: #D8D3D3;
+        }
+
+        .film {
+          display: flex
+          margin: 30px 0 70px;
+        }
+        .film > div {
+          margin-right: 20px;
+        }
+        @media screen and (max-width: 47.938em) {
+          .film {flex-direction: column}
+          .film > div {margin-right: 0;}
+        }
       `}</style>
     </div>
   )
