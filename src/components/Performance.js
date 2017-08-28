@@ -24,7 +24,7 @@ const Performance = (props) => {
         }
         <style jsx>{`
           td {
-            margin-bottom: 20px;
+            padding: 6px 8px !important;
           }
           .button {
             background: #C7B299;
@@ -32,6 +32,7 @@ const Performance = (props) => {
             padding: 4px 8px;
             text-decoration: none;
             font-weight: bold;
+            margin-right: 5px;
           }
         `}</style>
       </td>

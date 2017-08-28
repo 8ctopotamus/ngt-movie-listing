@@ -1,0 +1,10 @@
+# Auto-generated Muse file. Edits made to this file will be overwritten.
+<FilesMatch ".(jpg|jpeg|png|gif|ico|svg|swf)$">
+	<IfModule mod_headers.c>
+		Header set Cache-Control "max-age=2592000, public"
+	</IfModule>
+	<IfModule mod_expires.c>
+		ExpiresActive On
+		ExpiresDefault "access plus 30 days"
+	</IfModule>
+</FilesMatch>
