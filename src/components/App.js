@@ -4,12 +4,46 @@ import FilmList from './FilmList'
 class App extends Component {
   constructor() {
     super()
-    this.state = { xmlDoc: '' }
+    this.state = {
+      xmlDoc: '',
+      usingIE: false
+    }
   }
 
   componentWillMount() {
-    console.log(window.location.href)
-    const XMLFileURL = `${window.location.href.replace('test', '')}/OnlineSchedule_26203.xml`
+    // Detect if user is using IE
+    var ua = window.navigator.userAgent
+    var msie = ua.indexOf('MSIE ')
+    if (msie > 0) {
+      this.setState({usingIE: true})
+      return
+    }
+    var trident = ua.indexOf('Trident/')
+    if (trident > 0) {
+      // IE 11 => return version number
+      var rv = ua.indexOf('rv:')
+      this.setState({usingIE: true})
+      return
+    }
+
+    // if not using IE, get on with the actual work
+    const siteUrl = window.location.href
+
+    // Each on of the sites has its own ID on the XML filename
+    let fileId
+    if (siteUrl.indexOf('avalonmke') !== -1){
+      fileId = '26203'
+    } else if (siteUrl.indexOf('timescinema') !== -1) {
+      fileId = '26202'
+    } else if (siteUrl.indexOf('rosebudcinema') !== -1) {
+      fileId = '26201'
+    } else if (siteUrl.indexOf('localhost') !== -1) {
+      fileId = 'test'
+    } else {
+      throw Error('Cannot find Onmiweb XML file')
+    }
+
+    const XMLFileURL = `${siteUrl.replace('test', '')}/OnlineSchedule_${fileId}.xml`
 
     fetch(XMLFileURL)
       .then(res => res.text())
@@ -27,6 +61,10 @@ class App extends Component {
   }
 
   render() {
+    if (this.state.usingIE) {
+      return <span>You are using the outdated Internet Explorer browser. This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to see movie listings.</span>
+    }
+
     if (this.state.xmlDoc === '') {
         return <span>Loading...</span>}
 

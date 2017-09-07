@@ -47,26 +47,26 @@ const Film = (props) => {
   // )
   //
   //
-  // const consolidatePerformanceDates = () => {
-  //   return performances.map((performance, i) => {
-  //     const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
-  //     const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
-  //
-  //     if ( datesArray.includes(date) ) return
-  //
-  //     // find showtime
-  //     const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
-  //     let showtimesArr = []
-  //
-  //     showtimes.forEach((showtime) => {
-  //       if (showtimesArr.includes(showtime.childNodes[0].nodeValue)) return
-  //       showtimesArr.push(showtime.childNodes[0].nodeValue)
-  //     })
-  //
-  //     datesArray.push(date)
-  //     return <Performance data={performance} showtimes={showtimesArr} key={i} />
-  //   })
-  // }
+  const consolidatePerformanceDates = () => {
+    return performances.map((performance, i) => {
+      const url = performance.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
+      const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
+
+      if ( datesArray.includes(date) ) return
+
+      // find showtime
+      const showtimes = Array.prototype.slice.call(props.data.getElementsByTagName('showtime'))
+      let showtimesArr = []
+
+      showtimes.forEach((showtime) => {
+        if (showtimesArr.includes(showtime.childNodes[0].nodeValue)) return
+        showtimesArr.push(showtime.childNodes[0].nodeValue)
+      })
+
+      datesArray.push(date)
+      return <Performance data={performance} showtimes={showtimesArr} key={i} />
+    })
+  }
 
   return (
     <div className="film">

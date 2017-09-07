@@ -1,0 +1,1884 @@
+<schedule>
+  <theatre_code>26203</theatre_code>
+  <theatre_name>Avalon Theater</theatre_name>
+  <schedule_begin_date>2017-09-06</schedule_begin_date>
+  <schedule_end_date>2017-09-27</schedule_end_date>
+  <schedule_days>
+    <schedule_day>
+      <schedule_date>2017-09-06</schedule_date>
+        <film>
+          <titlecode>264721821</titlecode>
+          <titlename>Wind River</titlename>
+          <rating>R</rating>
+          <runtime>107</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Thriller</genre>
+          <trailer_url></trailer_url>
+          <synopsis>An FBI agent teams up with a veteran game tracker to investigate a murder that occurred on a Native American reservation.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>wind river.jpg</poster>
+          <thumbnail>wind river.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6265</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-24</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-06&amp;perfix=6265</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6266</performanceid>
+              <showtime>19:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-24</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-06&amp;perfix=6266</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>562251404</titlecode>
+          <titlename>The King of Comedy (1982)</titlename>
+          <rating>PG</rating>
+          <runtime>109</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy. </synopsis>
+          <reason>Parental Guidance Suggested</reason>
+          <warnings></warnings>
+          <poster>king of comedy.jpg</poster>
+          <thumbnail>king of comedy.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6212</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>202</seats_remaining>
+              <no_passes_until_date>2017-08-22</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-06&amp;perfix=6212</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>819964705</titlecode>
+          <titlename>Terminator 2: Judgement Day in 3D</titlename>
+          <rating>R</rating>
+          <runtime>137</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>In this sequel set eleven years after "The Terminator," young John Connor (Edward Furlong), the key to civilization's victory over a future robot uprising, is the target of the shape-shifting T-1000 (Robert Patrick), a Terminator sent from the future to kill him. Another Terminator, the revamped T-800 (Arnold Schwarzenegger), has been sent back to protect the boy. As John and his mother (Linda Hamilton) go on the run with the T-800, the boy forms an unexpected bond with the robot.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>t2 3d.jpg</poster>
+          <thumbnail>t2 3d.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6249</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-09-01</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-06&amp;perfix=6249</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-07</schedule_date>
+        <film>
+          <titlecode>264721821</titlecode>
+          <titlename>Wind River</titlename>
+          <rating>R</rating>
+          <runtime>107</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Thriller</genre>
+          <trailer_url></trailer_url>
+          <synopsis>An FBI agent teams up with a veteran game tracker to investigate a murder that occurred on a Native American reservation.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>wind river.jpg</poster>
+          <thumbnail>wind river.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6267</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-24</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-07&amp;perfix=6267</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>367993116</titlecode>
+          <titlename>Boone: The Bounty Hunter</titlename>
+          <rating>NR</rating>
+          <runtime>86</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When fame-seeking reality show bounty hunter, Boone, attempts to bring down a drug lord and his empire, he uncovers more than he bargains for and learns that justice means more than ratings.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>boone the bounty hunter.jpg</poster>
+          <thumbnail>boone the bounty hunter.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6216</performanceid>
+              <showtime>20:00</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-07</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-07&amp;perfix=6216</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6213</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>140</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-07&amp;perfix=6213</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6214</performanceid>
+              <showtime>22:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>186</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-07&amp;perfix=6214</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>819964705</titlecode>
+          <titlename>Terminator 2: Judgement Day in 3D</titlename>
+          <rating>R</rating>
+          <runtime>137</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>In this sequel set eleven years after "The Terminator," young John Connor (Edward Furlong), the key to civilization's victory over a future robot uprising, is the target of the shape-shifting T-1000 (Robert Patrick), a Terminator sent from the future to kill him. Another Terminator, the revamped T-800 (Arnold Schwarzenegger), has been sent back to protect the boy. As John and his mother (Linda Hamilton) go on the run with the T-800, the boy forms an unexpected bond with the robot.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>t2 3d.jpg</poster>
+          <thumbnail>t2 3d.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6250</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-09-01</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-07&amp;perfix=6250</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-08</schedule_date>
+        <film>
+          <titlecode>50150817</titlecode>
+          <titlename>The Oath (Eiðurinn)</titlename>
+          <rating>NR</rating>
+          <runtime>103</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Thriller</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Icelandic auteur Baltasar Kormákur (Contraband, 2 Guns, Everest) directs and stars in this psychological thriller about a father who tries to pull his daughter out of her world of drugs and petty crime, only to find that danger can be found in unexpected places.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>the oath.jpg</poster>
+          <thumbnail>the oath.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6145</performanceid>
+              <showtime>19:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>62</seats_remaining>
+              <no_passes_until_date>2017-08-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6145</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6152</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6152</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6150</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>142</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6150</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6151</performanceid>
+              <showtime>22:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>206</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6151</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6273</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>62</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6273</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6274</performanceid>
+              <showtime>21:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-08&amp;perfix=6274</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-09</schedule_date>
+        <film>
+          <titlecode>123976021</titlecode>
+          <titlename>Cabaret (1972)</titlename>
+          <rating>PG</rating>
+          <runtime>124</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Musical/Dance</genre>
+          <trailer_url></trailer_url>
+          <synopsis>In Berlin in 1931, American cabaret singer Sally Bowles (Liza Minnelli) meets British academic Brian Roberts (Michael York), who is finishing his university studies. Despite Brian's confusion over his sexuality, the pair become lovers, but the arrival of the wealthy and decadent playboy Maximilian von Heune (Helmut Griem) complicates matters for them both. This love triangle plays out against the rise of the Nazi party and the collapse of the Weimar Republic.</synopsis>
+          <reason>Parental Guidance Suggested</reason>
+          <warnings></warnings>
+          <poster>cabaret.jpg</poster>
+          <thumbnail>cabaret.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6167</performanceid>
+              <showtime>10:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>197</seats_remaining>
+              <no_passes_until_date>2017-09-08</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6167</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6149</performanceid>
+              <showtime>13:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6149</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6148</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>207</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6148</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6146</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>206</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6146</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6147</performanceid>
+              <showtime>22:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>209</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6147</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6270</performanceid>
+              <showtime>11:00</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6270</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6271</performanceid>
+              <showtime>13:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6271</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6272</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6272</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6268</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6268</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6269</performanceid>
+              <showtime>21:15</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-09&amp;perfix=6269</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-10</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6157</performanceid>
+              <showtime>13:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>211</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6157</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6156</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6156</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6154</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6154</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6280</performanceid>
+              <showtime>13:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6280</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6281</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6281</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6277</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-10&amp;perfix=6277</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-11</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6159</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-11&amp;perfix=6159</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6158</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>211</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-11&amp;perfix=6158</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6282</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-11&amp;perfix=6282</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6283</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-11&amp;perfix=6283</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-12</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6162</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-12&amp;perfix=6162</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6161</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-12&amp;perfix=6161</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6284</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-12&amp;perfix=6284</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6285</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-12&amp;perfix=6285</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-13</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6164</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-13&amp;perfix=6164</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6163</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-13&amp;perfix=6163</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6286</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-13&amp;perfix=6286</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6287</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-13&amp;perfix=6287</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-14</schedule_date>
+        <film>
+          <titlecode>490163081</titlecode>
+          <titlename>The Texas Chain Saw Massacre (1974)</titlename>
+          <rating>R</rating>
+          <runtime>83</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Two siblings visit their grandfather's grave in Texas along with three of their friends and are attacked by a family of cannibalistic psychopaths. </synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>texas chainsaw 1.jpg</poster>
+          <thumbnail>texas chainsaw 1.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6289</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>181</seats_remaining>
+              <no_passes_until_date>2017-09-13</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-14&amp;perfix=6289</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6166</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-14&amp;perfix=6166</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6165</performanceid>
+              <showtime>19:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-14&amp;perfix=6165</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>568816023</titlecode>
+          <titlename>The Texas Chainsaw Massacre 2 (1986)</titlename>
+          <rating>R</rating>
+          <runtime>101</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>A radio host is victimized by the cannibal family as a former Texas Marshall hunts them. </synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>texas chainsaw 2.jpg</poster>
+          <thumbnail>texas chainsaw 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6290</performanceid>
+              <showtime>21:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>198</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-14&amp;perfix=6290</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6288</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-14&amp;perfix=6288</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-15</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6294</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6294</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6292</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6292</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6293</performanceid>
+              <showtime>22:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6293</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6334</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6334</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6336</performanceid>
+              <showtime>21:15</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6336</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6335</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-15&amp;perfix=6335</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-16</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6300</performanceid>
+              <showtime>13:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6300</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6299</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6299</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6297</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6297</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6298</performanceid>
+              <showtime>22:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6298</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6331</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6331</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6333</performanceid>
+              <showtime>21:15</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6333</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6332</performanceid>
+              <showtime>13:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6332</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6330</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-16&amp;perfix=6330</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-17</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6309</performanceid>
+              <showtime>13:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6309</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6308</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6308</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6307</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6307</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6338</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6338</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6337</performanceid>
+              <showtime>13:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6337</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6339</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-17&amp;perfix=6339</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-18</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6314</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-18&amp;perfix=6314</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6313</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-18&amp;perfix=6313</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6340</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-18&amp;perfix=6340</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6341</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-18&amp;perfix=6341</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-19</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6318</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-19&amp;perfix=6318</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6317</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-19&amp;perfix=6317</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6342</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-19&amp;perfix=6342</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6343</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-19&amp;perfix=6343</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-20</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6322</performanceid>
+              <showtime>16:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-20&amp;perfix=6322</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6321</performanceid>
+              <showtime>19:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-20&amp;perfix=6321</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6344</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-20&amp;perfix=6344</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6345</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-20&amp;perfix=6345</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-21</schedule_date>
+        <film>
+          <titlecode>550908447</titlecode>
+          <titlename>It (2017)</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Horror</genre>
+          <trailer_url></trailer_url>
+          <synopsis>When children begin to disappear in the town of Derry, Maine, neighborhood kids band together to square off against Pennywise, an evil clown whose history of murder and violence dates back for centuries.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>It.jpg</poster>
+          <thumbnail>It.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6326</performanceid>
+              <showtime>15:20</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-21&amp;perfix=6326</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6329</performanceid>
+              <showtime>18:05</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-21&amp;perfix=6329</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>655344735</titlecode>
+          <titlename>Dirty Work (1998)</titlename>
+          <rating>PG13</rating>
+          <runtime>82</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Friends Sam (Artie Lange) and Mitch (Norm Macdonald) need $50,000 to pay for Sam's dad's heart surgery. When they're fired for getting revenge on their abusive theater-owner boss, they have a great money-making idea: a revenge-for-hire business. The friends are soon successful, but not all their clients are good customers. When real estate developer Travis Cole (Christopher McDonald) tricks them into vandalizing a building that isn't his, Sam and Mitch concoct their best revenge plan yet.</synopsis>
+          <reason>Parents Strongly Cautioned</reason>
+          <warnings></warnings>
+          <poster>dirty work.jpg</poster>
+          <thumbnail>dirty work.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6215</performanceid>
+              <showtime>21:00</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>193</seats_remaining>
+              <no_passes_until_date>2017-08-24</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-21&amp;perfix=6215</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>695743867</titlecode>
+          <titlename>The 60 Yard Line</titlename>
+          <rating>NR</rating>
+          <runtime>90</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Comedy</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Based on a true story. Set during the 2009 Football season. Ben 'Zagger' Zagowski and Nick 'Polano' Polano, best friends and co-workers, buy a house in the parking lot of Lambeau Field (home of the Packers), and are forced to pick between a football fan lifestyle and a girl. Lives change. There's a cow.</synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>60 yard line.jpg</poster>
+          <thumbnail>60 yard line.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6346</performanceid>
+              <showtime>16:30</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-08-30</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-21&amp;perfix=6346</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+        <film>
+          <titlecode>983348715</titlecode>
+          <titlename>Napping Princess</titlename>
+          <rating>NR</rating>
+          <runtime>110</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Animation</genre>
+          <trailer_url></trailer_url>
+          <synopsis>Kokone has university exams to prepare for, but instead she dozes off. Even when her father is unceremoniously arrested prior to the Tokyo Olympics and the family is hiding away a mystery or two she finds herself taking refuge in sleep where thrills await her. Could there be more to her dreams? </synopsis>
+          <reason>This Film is Not Yet Rated</reason>
+          <warnings></warnings>
+          <poster>NappingPrincess_Poster_WEB.jpg</poster>
+          <thumbnail>NappingPrincess_Poster_WEB.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6347</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>2</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>63</seats_remaining>
+              <no_passes_until_date>2017-09-15</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-21&amp;perfix=6347</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-22</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6223</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-22&amp;perfix=6223</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6221</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-22&amp;perfix=6221</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6222</performanceid>
+              <showtime>21:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-22&amp;perfix=6222</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-23</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6220</performanceid>
+              <showtime>12:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-23&amp;perfix=6220</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6219</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-23&amp;perfix=6219</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6217</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-23&amp;perfix=6217</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6218</performanceid>
+              <showtime>21:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-23&amp;perfix=6218</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-24</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6228</performanceid>
+              <showtime>12:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-24&amp;perfix=6228</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6227</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-24&amp;perfix=6227</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6225</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-24&amp;perfix=6225</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-25</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6230</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-25&amp;perfix=6230</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6229</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-25&amp;perfix=6229</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-26</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6233</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-26&amp;perfix=6233</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6232</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-26&amp;perfix=6232</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+    <schedule_day>
+      <schedule_date>2017-09-27</schedule_date>
+        <film>
+          <titlecode>174529579</titlecode>
+          <titlename>Kingsman: The Golden Circle</titlename>
+          <rating>R</rating>
+          <runtime>135</runtime>
+          <languagesound>EN</languagesound>
+          <languagesubtitle />
+          <genre>Action</genre>
+          <trailer_url></trailer_url>
+          <synopsis>With their headquarters destroyed and the world held hostage, members of Kingsman find new allies when they discover a spy organization in the United States known as Statesman. In an adventure that tests their strength and wits, the elite secret agents from both sides of the pond band together to battle a ruthless enemy and save the day, something that's becoming a bit of a habit for Eggsy.</synopsis>
+          <reason>Restricted</reason>
+          <warnings></warnings>
+          <poster>kingsman 2.jpg</poster>
+          <thumbnail>kingsman 2.png</thumbnail>
+          <performances>
+            <performance>
+              <performanceid>6235</performanceid>
+              <showtime>15:30</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-27&amp;perfix=6235</omniweb_url>
+            </performance>
+            <performance>
+              <performanceid>6234</performanceid>
+              <showtime>18:45</showtime>
+              <auditorium>1</auditorium>
+              <performance_type>General</performance_type>
+              <seats_remaining>213</seats_remaining>
+              <no_passes_until_date>2017-08-29</no_passes_until_date>
+              <omniweb_url>?schdate=2017-09-27&amp;perfix=6234</omniweb_url>
+            </performance>
+          </performances>
+        </film>
+    </schedule_day>
+  </schedule_days>
+</schedule>
