@@ -125,13 +125,11 @@ const Film = (props) => {
         }
         .film img { width: 250px; }
         @media screen and (max-width: 47.938em) {
-          .film {flex-direction: column}
-          .film > div {margin-right: 0;}
-          .film img {
-            width: 80%;
-            display: block;
-            margin: 0 auto 25px;
+          .film {
+            flex-direction: column;
+            padding: 0 110px;
           }
+          .film > div { margin-right: 0; }
         }
       `}</style>
     </div>

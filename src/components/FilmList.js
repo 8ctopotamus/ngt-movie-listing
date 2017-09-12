@@ -28,7 +28,7 @@ class FilmList extends Component {
         })[0]
         // add current film's performances to it
         performances.forEach(perf => {
-          targetFilm.getElementsByTagName('performances')[0].append(perf)
+          targetFilm.getElementsByTagName('performances')[0].appendChild(perf)
         })
         // do not add film to array if one with same title is already added
         return

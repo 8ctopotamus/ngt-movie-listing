@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FilmList from './FilmList'
+import 'whatwg-fetch'
 
 class App extends Component {
   constructor() {
@@ -16,14 +17,14 @@ class App extends Component {
     var msie = ua.indexOf('MSIE ')
     if (msie > 0) {
       this.setState({usingIE: true})
-      return
+      // return
     }
     var trident = ua.indexOf('Trident/')
     if (trident > 0) {
       // IE 11 => return version number
       var rv = ua.indexOf('rv:')
       this.setState({usingIE: true})
-      return
+      // return
     }
 
     // if not using IE, get on with the actual work
@@ -62,7 +63,7 @@ class App extends Component {
 
   render() {
     if (this.state.usingIE) {
-      return <span>You are using the outdated Internet Explorer browser. This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to see movie listings.</span>
+      // return <span><h2>Uh oh...</h2>You are using the outdated Internet Explorer browser.<br/><br/> <strong>This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to view movie listings.</strong></span>
     }
 
     if (this.state.xmlDoc === '') {
