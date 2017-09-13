@@ -51,7 +51,7 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.xmlError) return <span>Error loading Omniweb XML</span>
+    if (this.state.xmlError) return <span>Error loading Omniweb XML.</span>
 
     if (this.state.xmlDoc === '') {
         return <span>Loading...</span>}

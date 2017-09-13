@@ -36,8 +36,6 @@ class FilmList extends Component {
 
       filmsIDArr.push(id)
       filmsArr.push(film)
-
-      console.log(film)
     })
 
     this.setState({
@@ -47,7 +45,7 @@ class FilmList extends Component {
   }
 
   render() {
-    if (this.state.loading) return <p>Loading...</p>
+    if (this.state.loading) return <p>Loading films...</p>
 
     return (
       <div className="film-list">

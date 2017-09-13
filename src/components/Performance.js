@@ -1,10 +1,8 @@
 import React from 'react'
 
 const Performance = (props) => {
-  const id = props.data.getElementsByTagName("performanceid")[0].childNodes[0].nodeValue
-  const url = props.data.getElementsByTagName("omniweb_url")[0].childNodes[0].nodeValue
-  const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
-  const showtimes = props.showtimes
+
+  console.log(props)
 
   // The ombiweb URl needs path to specific theater
   const siteUrl = window.location.href
@@ -23,16 +21,15 @@ const Performance = (props) => {
 
   return (
     <tr className="performance">
-      <td>{ date }</td>
+      <td>{ props.data.date }</td>
       <td>
         {
-          props.showtimes.map((showtime, i) => {
+          props.data.showtimes.map((item, i) => {
             return (
-             <a href={`https://omniwebticketing.com/${ombiWebPath}/${url}`}
+             <a href={`https://omniwebticketing.com/${ombiWebPath}/${item.url}`}
                target="_blank"
-               className="button"
                key={i}>
-               { showtime }
+               { item.showtime }
              </a>
             )
           })
@@ -41,7 +38,7 @@ const Performance = (props) => {
           td {
             padding: 6px 8px !important;
           }
-          .button {
+          a {
             background: #C7B299;
             color: #fff;
             padding: 4px 8px;
