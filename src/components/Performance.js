@@ -6,6 +6,21 @@ const Performance = (props) => {
   const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
   const showtimes = props.showtimes
 
+  // The ombiweb URl needs path to specific theater
+  const siteUrl = window.location.href
+  let ombiWebPath
+  if (siteUrl.indexOf('avalonmke') !== -1){
+    ombiWebPath = 'avalon'
+  } else if (siteUrl.indexOf('timescinema') !== -1) {
+    ombiWebPath = 'times'
+  } else if (siteUrl.indexOf('rosebudcinema') !== -1) {
+    ombiWebPath = 'rosebud'
+  } else if (siteUrl.indexOf('localhost') !== -1) {
+    ombiWebPath = 'avalon'
+  } else {
+    throw Error('Cannot find Onmiweb XML file')
+  }
+
   return (
     <tr className="performance">
       <td>{ date }</td>
@@ -13,7 +28,7 @@ const Performance = (props) => {
         {
           props.showtimes.map((showtime, i) => {
             return (
-             <a href={`https://omniwebticketing.com/avalon/${url}`}
+             <a href={`https://omniwebticketing.com/${ombiWebPath}/${url}`}
                target="_blank"
                className="button"
                key={i}>

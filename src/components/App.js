@@ -7,26 +7,12 @@ class App extends Component {
     super()
     this.state = {
       xmlDoc: '',
+      xmlError: false,
       usingIE: false
     }
   }
 
   componentWillMount() {
-    // // Detect if user is using IE
-    // var ua = window.navigator.userAgent
-    // var msie = ua.indexOf('MSIE ')
-    // if (msie > 0) {
-    //   this.setState({usingIE: true})
-    //   return
-    // }
-    // var trident = ua.indexOf('Trident/')
-    // if (trident > 0) {
-    //   // IE 11 => return version number
-    //   var rv = ua.indexOf('rv:')
-    //   this.setState({usingIE: true})
-    //   return
-    // }
-
     // if not using IE, get on with the actual work
     const siteUrl = window.location.href
 
@@ -58,13 +44,14 @@ class App extends Component {
         return parser.parseFromString(safeString, "application/xml")
       })
       .then(data => this.setState({xmlDoc: data}))
-      .catch(err => console.log(err))
+      .catch(err => {
+        console.log(err)
+        this.setState({xmlError: true})
+      })
   }
 
   render() {
-    // if (this.state.usingIE) {
-    //   return <span><h2>Uh oh...</h2>You are using the outdated Internet Explorer browser.<br/><br/> <strong>This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to view movie listings.</strong></span>
-    // }
+    if (this.state.xmlError) return <span>Error loading Omniweb XML</span>
 
     if (this.state.xmlDoc === '') {
         return <span>Loading...</span>}

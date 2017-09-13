@@ -15,24 +15,24 @@ const Film = (props) => {
   let datesArray = []
 
   // TODO: test if images load
-  function testImage(url) {
-    // Define the promise
-    const imgPromise = new Promise(function(resolve, reject) {
-      // Create the image
-      const imgElement = new Image()
-      // When image is loaded, resolve the promise
-      imgElement.addEventListener('load', function imgOnLoad() {
-          resolve(this)
-      })
-      // When there's an error during load, reject the promise
-      imgElement.addEventListener('error', function imgOnError() {
-          reject()
-      })
-      // Assign URL
-      imgElement.src = url
-    })
-    return imgPromise
-  }
+  // function testImage(url) {
+  //   // Define the promise
+  //   const imgPromise = new Promise(function(resolve, reject) {
+  //     // Create the image
+  //     const imgElement = new Image()
+  //     // When image is loaded, resolve the promise
+  //     imgElement.addEventListener('load', function imgOnLoad() {
+  //         resolve(this)
+  //     })
+  //     // When there's an error during load, reject the promise
+  //     imgElement.addEventListener('error', function imgOnError() {
+  //         reject()
+  //     })
+  //     // Assign URL
+  //     imgElement.src = url
+  //   })
+  //   return imgPromise
+  // }
 
   // testImage(`${window.location.href.replace('test', '')}/images/posters/${poster}`)
   //   .then(
@@ -129,6 +129,11 @@ const Film = (props) => {
             flex-direction: column;
           }
           .film > div { margin-right: 0; }
+          .film > div:first-child {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          }
         }
       `}</style>
     </div>

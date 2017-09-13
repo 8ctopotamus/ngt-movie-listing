@@ -36,6 +36,8 @@ class FilmList extends Component {
 
       filmsIDArr.push(id)
       filmsArr.push(film)
+
+      console.log(film)
     })
 
     this.setState({
