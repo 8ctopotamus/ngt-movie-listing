@@ -127,7 +127,6 @@ const Film = (props) => {
         @media screen and (max-width: 47.938em) {
           .film {
             flex-direction: column;
-            padding: 0 110px;
           }
           .film > div { margin-right: 0; }
         }

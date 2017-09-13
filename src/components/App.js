@@ -12,20 +12,20 @@ class App extends Component {
   }
 
   componentWillMount() {
-    // Detect if user is using IE
-    var ua = window.navigator.userAgent
-    var msie = ua.indexOf('MSIE ')
-    if (msie > 0) {
-      this.setState({usingIE: true})
-      // return
-    }
-    var trident = ua.indexOf('Trident/')
-    if (trident > 0) {
-      // IE 11 => return version number
-      var rv = ua.indexOf('rv:')
-      this.setState({usingIE: true})
-      // return
-    }
+    // // Detect if user is using IE
+    // var ua = window.navigator.userAgent
+    // var msie = ua.indexOf('MSIE ')
+    // if (msie > 0) {
+    //   this.setState({usingIE: true})
+    //   return
+    // }
+    // var trident = ua.indexOf('Trident/')
+    // if (trident > 0) {
+    //   // IE 11 => return version number
+    //   var rv = ua.indexOf('rv:')
+    //   this.setState({usingIE: true})
+    //   return
+    // }
 
     // if not using IE, get on with the actual work
     const siteUrl = window.location.href
@@ -62,9 +62,9 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.usingIE) {
-      // return <span><h2>Uh oh...</h2>You are using the outdated Internet Explorer browser.<br/><br/> <strong>This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to view movie listings.</strong></span>
-    }
+    // if (this.state.usingIE) {
+    //   return <span><h2>Uh oh...</h2>You are using the outdated Internet Explorer browser.<br/><br/> <strong>This site requires a <a href="http://outdatedbrowser.com/en" target="_blank">modern browser</a> to view movie listings.</strong></span>
+    // }
 
     if (this.state.xmlDoc === '') {
         return <span>Loading...</span>}
