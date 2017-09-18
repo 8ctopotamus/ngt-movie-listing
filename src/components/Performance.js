@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Performance = (props) => {
-
-  console.log(props)
-
   // The ombiweb URl needs path to specific theater
   const siteUrl = window.location.href
   let ombiWebPath
@@ -15,36 +12,47 @@ const Performance = (props) => {
     ombiWebPath = 'rosebud'
   } else if (siteUrl.indexOf('localhost') !== -1) {
     ombiWebPath = 'avalon'
-  } else {
-    throw Error('Cannot find Onmiweb XML file')
+  }
+
+  function formatShowtime(time) {
+    // convert military time to 12-hour time
+    var hours = time.split(':')[0]
+    var mins = time.split(':')[1]
+
+    var formattedHours = hours >= 13 ? (hours - 12) : hours;
+    var AMorPM = hours >= 13 ? 'pm' : 'am'
+
+    return `${formattedHours}:${mins}${AMorPM}`
+  }
+
+  const renderShowTimes = () => {
+    return props.data.showtimes.map((item, i) => {
+      return (
+       <a href={`https://omniwebticketing.com/${ombiWebPath}/${item.url}`}
+         target="_blank"
+         key={i}
+         style={{
+           background: '#C7B299',
+           padding: '4px 8px',
+           textDecoration: 'none',
+           fontWeight: 'bold',
+           marginRight: '5px',
+           color: 'black',
+         }}>
+         { formatShowtime(item.showtime) }
+       </a>
+      )
+    })
   }
 
   return (
     <tr className="performance">
       <td>{ props.data.date }</td>
       <td>
-        {
-          props.data.showtimes.map((item, i) => {
-            return (
-             <a href={`https://omniwebticketing.com/${ombiWebPath}/${item.url}`}
-               target="_blank"
-               key={i}>
-               { item.showtime }
-             </a>
-            )
-          })
-        }
+        { renderShowTimes() }
         <style jsx>{`
           td {
             padding: 6px 8px !important;
-          }
-          a {
-            background: #C7B299;
-            color: #fff;
-            padding: 4px 8px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-right: 5px;
           }
         `}</style>
       </td>

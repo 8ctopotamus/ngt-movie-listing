@@ -22,7 +22,7 @@ const Film = (props) => {
     const date = url.match(/\d{4}([.\-/ ])\d{2}\1\d{2}/)[0]
     const showtime = performance.getElementsByTagName('showtime')[0].childNodes[0].nodeValue
 
-    // if date is already saved, add showtime to that date
+    // if date is already saved, add showtime
     if (datesArray.includes(date)) {
       const targetObj = formattedPerformances.find(obj => {
         return obj.date === date
@@ -38,7 +38,14 @@ const Film = (props) => {
     formattedPerformances.push({id, date, showtimes: [{showtime, url}]})
   })
 
-  console.log(formattedPerformances)
+  // determine font color per designer's request.
+  const siteUrl = window.location.href
+  let textColor
+  if (siteUrl.indexOf('avalonmke') !== -1){
+    textColor = '#C7B299'
+  } else {
+    textColor = '#919191'
+  }
 
   return (
     <div className="film">
@@ -47,8 +54,8 @@ const Film = (props) => {
       </div>
       <div>
         <h2>{title}</h2>
-        <p className="film-details">{`${genre} | ${rating} | ${runtime}m`}</p>
-        <p>{ synopsis }</p>
+        <p className="film-details" style={{color: textColor}}>{`${genre} | ${rating} | ${runtime}m`}</p>
+        <p style={{color: textColor}}>{ synopsis }</p>
         <table>
           <thead>
             <tr>
@@ -61,7 +68,7 @@ const Film = (props) => {
             </tr>
           </thead>
           <tbody>
-            { formattedPerformances.map((perfData, i) => <Performance data={perfData} key={i} />) }
+            { formattedPerformances.map((perfData, i) => <Performance data={perfData} color={textColor} key={i} />) }
           </tbody>
         </table>
       </div>
@@ -74,15 +81,18 @@ const Film = (props) => {
           color: #C7B299;
         }
         h2 {
-          font-size: 2em;
+          font-size: 14pt;
           font-weight: bold;
           margin-bottom: 12px;
+          color: white;
         }
         p {
+          font-size: 10.5pt;
           margin-bottom: 10px;
         }
         .film-details {
           font-weight: bold;
+          text-transform: uppercase;
         }
         .th {
           padding: 6px !important;
@@ -91,6 +101,7 @@ const Film = (props) => {
         .film {
           display: flex
           margin: 30px 0 70px;
+          font-family: "Trebuchet MS", sans-serif;
         }
         .film > div {
           margin-right: 20px;

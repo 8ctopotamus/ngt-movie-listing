@@ -26,9 +26,7 @@ class App extends Component {
       fileId = '26201'
     } else if (siteUrl.indexOf('localhost') !== -1) {
       fileId = 'test'
-    } else {
-      throw Error('Cannot find Onmiweb XML file')
-    }
+    } 
 
     const XMLFileURL = `${siteUrl.replace('test', '')}/OnlineSchedule_${fileId}.xml`
 
