@@ -38,17 +38,24 @@ const Film = (props) => {
     formattedPerformances.push({id, date, showtimes: [{showtime, url}]})
   })
 
-  // determine font color per designer's request.
+  // determine font color as per designer's request.
   const siteUrl = window.location.href
   let textColor
   if (siteUrl.indexOf('avalonmke') !== -1){
     textColor = '#C7B299'
   } else {
-    textColor = '#919191'
+    textColor = 'rgb(229, 229, 229)'
   }
 
+  // Julie wants to be able to link her menu to each film
+  // here we create an ID she can use for her links
+  const linkableID = title.trim()
+                          .replace(/[^\w ]+/g,'')
+                          .replace(/ +/g,'-')
+                          .toLowerCase()
+
   return (
-    <div className="film">
+    <div id={linkableID} className="film">
       <div>
         <img src={`${window.location.href.replace('test', '')}images/posters/webcontent/poster/${poster}`} alt={title} />
       </div>
@@ -56,7 +63,7 @@ const Film = (props) => {
         <h2>{title}</h2>
         <p className="film-details" style={{color: textColor}}>{`${genre} | ${rating} | ${runtime}m`}</p>
         <p style={{color: textColor}}>{ synopsis }</p>
-        <table>
+        <table style={{color: textColor}}>
           <thead>
             <tr>
               <th className="th">

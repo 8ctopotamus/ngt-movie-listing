@@ -19,7 +19,7 @@ const Performance = (props) => {
     var hours = time.split(':')[0]
     var mins = time.split(':')[1]
 
-    var formattedHours = hours >= 13 ? (hours - 12) : hours;
+    var formattedHours = hours >= 13 ? (hours - 12) : hours
     var AMorPM = hours >= 13 ? 'pm' : 'am'
 
     return `${formattedHours}:${mins}${AMorPM}`
@@ -32,7 +32,7 @@ const Performance = (props) => {
          target="_blank"
          key={i}
          style={{
-           background: '#C7B299',
+           background: props.color,
            padding: '4px 8px',
            textDecoration: 'none',
            fontWeight: 'bold',
@@ -47,7 +47,7 @@ const Performance = (props) => {
 
   return (
     <tr className="performance">
-      <td>{ props.data.date }</td>
+      <td style={{color: props.color}}>{ props.data.date }</td>
       <td>
         { renderShowTimes() }
         <style jsx>{`
