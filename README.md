@@ -2,7 +2,7 @@
 
 A React app to read an Omniweb Ticketing XML file, uploaded to the NTG server, and generates a movie listing.
 
-### installation
+### Installation
 ```git clone https://github.com/8ctopotamus/ngt-movie-listing.git```
 
 ```npm install```

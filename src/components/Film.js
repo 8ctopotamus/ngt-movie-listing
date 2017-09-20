@@ -113,7 +113,10 @@ const Film = (props) => {
         .film > div {
           margin-right: 20px;
         }
-        .film img { width: 250px; }
+        .film img {
+          width: 250px;
+          height: 380px;
+        }
         @media screen and (max-width: 47.938em) {
           .film {
             flex-direction: column;
