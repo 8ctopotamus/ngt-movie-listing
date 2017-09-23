@@ -2,7 +2,7 @@ import React from 'react'
 import Performance from './Performance'
 import ModalVideo from 'react-modal-video'
 
-import '../../node_modules/react-modal-video/scss/modal-video.scss';
+import '../../node_modules/react-modal-video/scss/modal-video.scss'
 
 class Film extends React.Component {
   constructor() {
@@ -21,19 +21,21 @@ class Film extends React.Component {
     const rating = this.props.data.getElementsByTagName("rating")[0].childNodes[0].nodeValue
     const genre = this.props.data.getElementsByTagName("genre")[0].childNodes[0].nodeValue
     const runtime = this.props.data.getElementsByTagName("runtime")[0].childNodes[0].nodeValue
-
-    // const trailerTag = this.props.data.getElementsByTagName("trailer_url")[0]
-    // console.log(title + ' has trailer?\n ' + trailerTag.hasChildNodes())
-    //
-    // let trailerURL
-    // if (trailerTag.hasChildNodes() === true) {
-    //   console.log('true')
-    //   trailerURL = trailerURL.childNodes[0].nodeValue
-    // }
-
     const synopsis = this.props.data.getElementsByTagName("synopsis")[0].childNodes[0].nodeValue
     let poster = this.props.data.getElementsByTagName("poster")[0].childNodes[0].nodeValue
     poster = poster.replace(' ', '%20')
+
+    // trailers
+    const trailerTag = this.props.data.getElementsByTagName("trailer_url")[0]
+    let trailerURL
+    if (trailerTag.hasChildNodes()) {
+      var myregexp =
+      trailerURL = trailerTag.childNodes[0].nodeValue.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i)[1]
+    } else {
+      trailerURL = null
+    }
+
+    // performances
     const performances = Array.prototype.slice.call(this.props.data.getElementsByTagName('performance'))
 
     // Take collected performance dates and combine times and generate a table
@@ -84,12 +86,28 @@ class Film extends React.Component {
           <img src={`${window.location.href.replace('test', '')}images/posters/webcontent/poster/${poster}`} alt={title} />
         </div>
         <div>
-          <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
-
-          <button onClick={this.openModal}>Open</button>
+          { /* the trailer modal */
+            trailerURL && <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={trailerURL} onClose={() => this.setState({isOpen: false})} />
+          }
 
           <h2>{title}</h2>
           <p className="film-details" style={{color: textColor}}>{`${genre} | ${rating} | ${runtime}m`}</p>
+
+          {
+            trailerURL && (
+              <button
+                className="trailer-button"
+                onClick={this.openModal}
+                style={{
+                  color: textColor,
+                  borderColor: textColor
+                }}
+              >
+                View Trailer
+              </button>
+            )
+          }
+
           <p style={{color: textColor}}>{ synopsis }</p>
           <table style={{color: textColor}}>
             <thead>
@@ -144,6 +162,16 @@ class Film extends React.Component {
           .film img {
             width: 250px;
             height: 380px;
+          }
+          .film .trailer-button {
+            background: transparent;
+            border-width: 2px;
+            border-style: solid;
+            padding: 10px 23px;
+          }
+          .film .trailer-button:hover {
+            cursor: pointer;
+            opacity: .8;
           }
           @media screen and (max-width: 47.938em) {
             .film {
