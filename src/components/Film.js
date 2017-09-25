@@ -25,12 +25,21 @@ class Film extends React.Component {
     let poster = this.props.data.getElementsByTagName("poster")[0].childNodes[0].nodeValue
     poster = poster.replace(' ', '%20')
 
-    // trailers
+    // trailer URLs
     const trailerTag = this.props.data.getElementsByTagName("trailer_url")[0]
     let trailerURL
+    let trailerChannel
     if (trailerTag.hasChildNodes()) {
-      var myregexp =
-      trailerURL = trailerTag.childNodes[0].nodeValue.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i)[1]
+      if (trailerTag.childNodes[0].nodeValue.includes('youtube.com')) { // is youtube URL
+        trailerChannel = 'youtube'
+        trailerURL = trailerTag.childNodes[0].nodeValue.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i)[1]
+      } else if (trailerTag.childNodes[0].nodeValue.includes('vimeo')) { // is vimeo URL
+        trailerChannel = 'vimeo'
+        trailerURL = trailerTag.childNodes[0].nodeValue.split('vimeo.com/')[1]
+        console.log(trailerURL)
+      } else {
+        throw Error ('Video link is neither a Youtube nor Vimeo URL')
+      }
     } else {
       trailerURL = null
     }
@@ -87,7 +96,7 @@ class Film extends React.Component {
         </div>
         <div>
           { /* the trailer modal */
-            trailerURL && <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={trailerURL} onClose={() => this.setState({isOpen: false})} />
+            trailerURL && <ModalVideo channel={trailerChannel} isOpen={this.state.isOpen} videoId={trailerURL} onClose={() => this.setState({isOpen: false})} />
           }
 
           <h2>{title}</h2>
@@ -168,6 +177,7 @@ class Film extends React.Component {
             border-width: 2px;
             border-style: solid;
             padding: 10px 23px;
+            margin-bottom: 10px;
           }
           .film .trailer-button:hover {
             cursor: pointer;
