@@ -36,7 +36,6 @@ class Film extends React.Component {
       } else if (trailerTag.childNodes[0].nodeValue.includes('vimeo')) { // is vimeo URL
         trailerChannel = 'vimeo'
         trailerURL = trailerTag.childNodes[0].nodeValue.split('vimeo.com/')[1]
-        console.log(trailerURL)
       } else {
         throw Error ('Video link is neither a Youtube nor Vimeo URL')
       }
@@ -147,6 +146,7 @@ class Film extends React.Component {
             font-weight: bold;
             margin-bottom: 12px;
             color: white;
+            text-transform: uppercase;
           }
           p {
             font-size: 10.5pt;
@@ -192,6 +192,9 @@ class Film extends React.Component {
               width: 100%;
               display: flex;
               justify-content: center;
+            }
+            .film img {
+              margin-bottom: 25px;
             }
           }
         `}</style>
