@@ -20,7 +20,7 @@ const Performance = (props) => {
     var mins = time.split(':')[1]
 
     var formattedHours = hours >= 13 ? (hours - 12) : hours
-    var AMorPM = hours >= 13 ? 'pm' : 'am'
+    var AMorPM = hours >= 12 ? 'pm' : 'am'
 
     return `${formattedHours}:${mins}${AMorPM}`
   }
