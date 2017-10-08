@@ -45,7 +45,7 @@ class FilmList extends Component {
   }
 
   render() {
-    if (this.state.loading) return <p>Loading films...</p>
+    if (this.state.loading) return <p>Loading films list...</p>
 
     return (
       <div className="film-list">

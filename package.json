@@ -17,9 +17,7 @@
       "stage-0",
       "react"
     ],
-    "plugins": [
-      "styled-jsx/babel"
-    ]
+    "plugins": []
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -41,7 +39,6 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-modal-video": "^1.0.7",
-    "styled-jsx": "^1.0.8",
     "whatwg-fetch": "^2.0.3"
   }
 }

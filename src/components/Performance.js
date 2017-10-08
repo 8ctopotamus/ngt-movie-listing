@@ -29,16 +29,10 @@ const Performance = (props) => {
     return props.data.showtimes.map((item, i) => {
       return (
        <a href={`https://omniwebticketing.com/${ombiWebPath}/${item.url}`}
-         target="_blank"
-         key={i}
-         style={{
-           background: props.color,
-           padding: '4px 8px',
-           textDecoration: 'none',
-           fontWeight: 'bold',
-           marginRight: '5px',
-           color: 'black',
-         }}>
+          className="performance-link"
+          style={{ background: props.color }}
+          target="_blank"
+          key={i}>
          { formatShowtime(item.showtime) }
        </a>
       )
@@ -47,14 +41,11 @@ const Performance = (props) => {
 
   return (
     <tr className="performance">
-      <td style={{color: props.color}}>{ props.data.date }</td>
+      <td style={{color: props.color}}>
+        { props.data.date }
+      </td>
       <td>
         { renderShowTimes() }
-        <style jsx>{`
-          td {
-            padding: 6px 8px !important;
-          }
-        `}</style>
       </td>
     </tr>
   )

@@ -15,14 +15,24 @@ class Film extends React.Component {
     this.setState({isOpen: !this.state.isOpen})
   }
 
+  // if an XML tag is empty, the script crashes
+  getXMLTagValue(tag) {
+    if (this.props.data.getElementsByTagName(tag)[0].hasChildNodes()) {
+      return this.props.data.getElementsByTagName(tag)[0].childNodes[0].nodeValue
+    } else {
+      console.warn(tag + ' is not defined')
+      return ''
+    }
+  }
+
   render() {
-    const id = this.props.data.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
-    const title = this.props.data.getElementsByTagName("titlename")[0].childNodes[0].nodeValue
-    const rating = this.props.data.getElementsByTagName("rating")[0].childNodes[0].nodeValue
-    const genre = this.props.data.getElementsByTagName("genre")[0].childNodes[0].nodeValue
-    const runtime = this.props.data.getElementsByTagName("runtime")[0].childNodes[0].nodeValue
-    const synopsis = this.props.data.getElementsByTagName("synopsis")[0].childNodes[0].nodeValue
-    let poster = this.props.data.getElementsByTagName("poster")[0].childNodes[0].nodeValue
+    const id = this.getXMLTagValue('titlecode')
+    const title = this.getXMLTagValue('titlename')
+    const rating = this.getXMLTagValue('rating')
+    const genre = this.getXMLTagValue('genre')
+    const runtime = this.getXMLTagValue('runtime')
+    const synopsis = this.getXMLTagValue('synopsis')
+    let poster = this.getXMLTagValue('poster')
     poster = poster.replace(' ', '%20')
 
     // trailer URLs
@@ -47,7 +57,7 @@ class Film extends React.Component {
     const performances = Array.prototype.slice.call(this.props.data.getElementsByTagName('performance'))
 
     // Take collected performance dates and combine times and generate a table
-    let datesArray = [] // for dup. checking
+    let datesArray = [] // for duplicate checking
     let formattedPerformances = []
 
     performances.forEach((performance, i) => {
@@ -81,8 +91,8 @@ class Film extends React.Component {
       textColor = 'rgb(229, 229, 229)'
     }
 
-    // Julie wants to be able to link her menu to each film
-    // here we create an ID she can use for her links
+    // Julie, the designer, wants to be able to link her menu to each film.
+    // here we create an ID she can use for her links.
     const linkableID = title.trim()
                             .replace(/[^\w ]+/g,'')
                             .replace(/ +/g,'-')
@@ -94,7 +104,8 @@ class Film extends React.Component {
           <img src={`${window.location.href.replace('test', '')}images/posters/webcontent/poster/${poster}`} alt={title} />
         </div>
         <div>
-          { /* the trailer modal */
+          {
+            /* the trailer modal */
             trailerURL && <ModalVideo channel={trailerChannel} isOpen={this.state.isOpen} videoId={trailerURL} onClose={() => this.setState({isOpen: false})} />
           }
 
@@ -133,71 +144,6 @@ class Film extends React.Component {
             </tbody>
           </table>
         </div>
-
-        <style jsx>{`
-          h2,
-          p,
-          strong,
-          table {
-            color: #C7B299;
-          }
-          h2 {
-            font-size: 14pt;
-            font-weight: bold;
-            margin-bottom: 12px;
-            color: white;
-            text-transform: uppercase;
-          }
-          p {
-            font-size: 10.5pt;
-            margin-bottom: 10px;
-          }
-          .film-details {
-            font-weight: bold;
-            text-transform: uppercase;
-          }
-          .th {
-            padding: 6px !important;
-            font-weight: bold;
-          }
-          .film {
-            display: flex
-            margin: 30px 0 70px;
-            font-family: "Trebuchet MS", sans-serif;
-          }
-          .film > div {
-            margin-right: 20px;
-          }
-          .film img {
-            width: 250px;
-            height: 380px;
-          }
-          .film .trailer-button {
-            background: transparent;
-            border-width: 2px;
-            border-style: solid;
-            padding: 10px 23px;
-            margin-bottom: 10px;
-          }
-          .film .trailer-button:hover {
-            cursor: pointer;
-            opacity: .8;
-          }
-          @media screen and (max-width: 47.938em) {
-            .film {
-              flex-direction: column;
-            }
-            .film > div { margin-right: 0; }
-            .film > div:first-child {
-              width: 100%;
-              display: flex;
-              justify-content: center;
-            }
-            .film img {
-              margin-bottom: 25px;
-            }
-          }
-        `}</style>
       </div>
     )
   }
