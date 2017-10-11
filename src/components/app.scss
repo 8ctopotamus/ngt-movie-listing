@@ -1,25 +1,18 @@
-h2,
-p,
-strong,
-table {
+.films-list p,
+.films-list strong,
+.films-list table {
   color: #C7B299;
 }
-h2 {
-  font-size: 14pt;
-  font-weight: bold;
-  margin-bottom: 12px;
-  color: white;
-  text-transform: uppercase;
-}
-p {
+.films-list p {
   font-size: 10.5pt;
   margin-bottom: 10px;
 }
 .film-details {
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
-.th {
+.films-list .th {
   padding: 6px !important;
   font-weight: bold;
 }
@@ -27,6 +20,13 @@ p {
   display: flex;
   margin: 30px 0 70px;
   font-family: "Trebuchet MS", sans-serif;
+}
+.film-title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: white;
+  text-transform: uppercase;
 }
 .film > div {
   margin-right: 20px;

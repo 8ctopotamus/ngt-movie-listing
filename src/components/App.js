@@ -70,7 +70,7 @@ class App extends Component {
     const days = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('schedule_day'))
 
     return (
-      <FilmList films={films} days={days} />
+      <FilmList className="films-list" films={films} days={days} />
     )
   }
 }

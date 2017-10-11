@@ -109,7 +109,7 @@ class Film extends React.Component {
             trailerURL && <ModalVideo channel={trailerChannel} isOpen={this.state.isOpen} videoId={trailerURL} onClose={() => this.setState({isOpen: false})} />
           }
 
-          <h2>{title}</h2>
+          <h2 className="film-title" style={{color: textColor}}>{title}</h2>
           <p className="film-details" style={{color: textColor}}>{`${genre} | ${rating} | ${runtime}m`}</p>
 
           {
