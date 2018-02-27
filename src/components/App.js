@@ -59,12 +59,14 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.fourOhFourError) return <span style={{color: 'red'}}>XML file not found.</span>
+    if (this.state.fourOhFourError)
+      return <span style={{color: 'red'}}>XML file not found.</span>
 
-    if (this.state.xmlError) return <span style={{color: 'red'}}>Error loading schedule XML.</span>
+    if (this.state.xmlError)
+      return <span style={{color: 'red'}}>Error loading schedule XML.</span>
 
     if (this.state.xmlDoc === '') {
-        return <span style={{color: 'lightgrey'}}>Loading movie data...</span>}
+      return <span style={{color: 'lightgrey'}}>Loading movie data...</span>}
 
     const films = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('film'))
     const days = Array.prototype.slice.call(this.state.xmlDoc.getElementsByTagName('schedule_day'))

@@ -36,6 +36,10 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "bbcode-parser": "^1.0.10",
+    "moment": "^2.19.3",
+    "preact": "^8.2.6",
+    "preact-compat": "^3.17.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-modal-video": "^1.0.7",

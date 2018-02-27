@@ -1,8 +1,7 @@
 import React from 'react'
 import Performance from './Performance'
 import ModalVideo from 'react-modal-video'
-
-import '../../node_modules/react-modal-video/scss/modal-video.scss'
+import BBCodesParser from './bbcTagsParser'
 
 class Film extends React.Component {
   constructor() {
@@ -23,6 +22,12 @@ class Film extends React.Component {
       console.warn(tag + ' is not defined')
       return ''
     }
+  }
+
+  // Parse BBC formatting codes
+  renderSynopsisParagraphs(string) {
+    const parsedTags = BBCodesParser.parseString(string)
+    return {__html: parsedTags};
   }
 
   render() {
@@ -127,7 +132,10 @@ class Film extends React.Component {
             )
           }
 
-          <p style={{color: textColor}}>{ synopsis }</p>
+          <span style={{color: textColor}}>
+            <div dangerouslySetInnerHTML={ this.renderSynopsisParagraphs(synopsis) } />
+          </span>
+
           <table style={{color: textColor}}>
             <thead>
               <tr>

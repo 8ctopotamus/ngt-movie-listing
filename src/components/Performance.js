@@ -1,4 +1,5 @@
 import React from 'react'
+import moment from 'moment'
 
 const Performance = (props) => {
   // The ombiweb URl needs path to specific theater
@@ -25,6 +26,13 @@ const Performance = (props) => {
     return `${formattedHours}:${mins}${AMorPM}`
   }
 
+  const  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+  function renderDate() {
+    return moment(props.data.date).format('dddd MMM DD')
+  }
+
   const renderShowTimes = () => {
     return props.data.showtimes.map((item, i) => {
       return (
@@ -42,7 +50,7 @@ const Performance = (props) => {
   return (
     <tr className="performance">
       <td style={{color: props.color}}>
-        { props.data.date }
+        { renderDate() }
       </td>
       <td>
         { renderShowTimes() }
