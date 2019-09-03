@@ -14,7 +14,7 @@ class FilmList extends Component {
   componentWillMount() {
     // we need to show one instance of each film
     let filmsArr = []
-    let filmsIDArr = [] // probaby a better way to do this, but for easy checking
+    let filmsIDArr = [] // probaby a better way to do this, but for easy ID checking
     this.props.films.forEach((film, i) => {
       const id = film.getElementsByTagName("titlecode")[0].childNodes[0].nodeValue
       const performances = Array.prototype.slice.call(film.getElementsByTagName('performance'))
