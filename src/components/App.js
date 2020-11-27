@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    const siteUrl = window.location.origin
+    const siteUrl = window.location.href.split('?')[0]
 
     // Each on of the sites has its own ID on the XML filename.
     // Eg: OnlineSchedule_XXXXX
@@ -28,6 +28,8 @@ class App extends Component {
     } else if (siteUrl.indexOf('rosebudcinema') !== -1) {
       fileId = '26201'
     }
+
+    console.log(fileId)
 
     const XMLFileURL = `${siteUrl.replace('test', '')}/OnlineSchedule_${fileId}.xml`
     console.log(XMLFileURL)
