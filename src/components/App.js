@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import FilmList from './FilmList'
 import 'whatwg-fetch' // fetch polyfill for legacy browsers
 
-import './app.scss'
+import './app.css'
 
 class App extends Component {
   constructor() {
@@ -16,22 +16,21 @@ class App extends Component {
   }
 
   componentWillMount() {
-    const siteUrl = window.location.href
+    const siteUrl = window.location.origin
 
     // Each on of the sites has its own ID on the XML filename.
     // Eg: OnlineSchedule_XXXXX
-    let fileId
+    let fileId = 'test'
     if (siteUrl.indexOf('avalonmke') !== -1){
       fileId = '26203'
     } else if (siteUrl.indexOf('timescinema') !== -1) {
       fileId = '26202'
     } else if (siteUrl.indexOf('rosebudcinema') !== -1) {
       fileId = '26201'
-    } else if (siteUrl.indexOf('localhost') !== -1) {
-      fileId = 'test'
     }
 
     const XMLFileURL = `${siteUrl.replace('test', '')}/OnlineSchedule_${fileId}.xml`
+    console.log(XMLFileURL)
 
     fetch(XMLFileURL)
       .then(res => {

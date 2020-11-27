@@ -1,35 +1,21 @@
-module.exports = {
-  entry: [
-    "babel-polyfill",
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
-    './src/index.js'
-  ],
-  module: {
-    loaders: [{
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loader: 'react-hot-loader!babel-loader'
-    },
-    {
-      test: /\.scss$/,
-      loaders: ['style-loader', 'css-loader', 'sass-loader']
-    }]
-  },
-  resolve: {
-    extensions: ['*', '.js', '.jsx'],
-    "alias": {
-      "react": "preact-compat",
-      "react-dom": "preact-compat"
+const path = require("path")
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin")
+const glob = require("glob")
+
+    module.exports = {
+      entry: {
+        "bundle.js": glob.sync("build/static/?(js|css)/main.*.?(js|css)").map(f => path.resolve(__dirname, f)),
+      },
+      output: {
+        filename: "./build/static/js/movielisting.bundle.js",
+      },
+      module: {
+        rules: [
+          {
+            test: /\.css$/,
+            use: ["style-loader", "css-loader"],
+          },
+        ],
+      },
+      plugins: [new UglifyJsPlugin()],
     }
-  },
-  output: {
-    path: __dirname + '/dist',
-    publicPath: '/',
-    filename: 'movielisting.bundle.js'
-  },
-  devServer: {
-    contentBase: './dist',
-    hot: true
-  }
-}
