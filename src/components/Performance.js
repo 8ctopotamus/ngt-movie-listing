@@ -3,7 +3,7 @@ import moment from 'moment'
 
 const Performance = (props) => {
   // The ombiweb URl needs path to specific theater
-  const siteUrl = window.location.href
+  const siteUrl = window.location.href.split('?')[0]
   let ombiWebPath
   if (siteUrl.indexOf('avalonmke') !== -1){
     ombiWebPath = 'avalon'
@@ -25,9 +25,6 @@ const Performance = (props) => {
 
     return `${formattedHours}:${mins}${AMorPM}`
   }
-
-  const  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-  var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
   function renderDate() {
     return moment(props.data.date).format('dddd MMM DD')

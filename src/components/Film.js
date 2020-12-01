@@ -31,7 +31,7 @@ class Film extends React.Component {
   }
 
   render() {
-    const id = this.getXMLTagValue('titlecode')
+    // const id = this.getXMLTagValue('titlecode')
     const title = this.getXMLTagValue('titlename')
     const rating = this.getXMLTagValue('rating')
     const genre = this.getXMLTagValue('genre')
@@ -88,7 +88,7 @@ class Film extends React.Component {
     })
 
     // determine font color as per designer's request.
-    const siteUrl = window.location.href
+    const siteUrl = window.location.href.split('?')[0]
     let textColor
     if (siteUrl.indexOf('avalonmke') !== -1){
       textColor = '#C7B299'
@@ -98,15 +98,16 @@ class Film extends React.Component {
 
     // Julie, the designer, wants to be able to link her menu to each film.
     // here we create an ID she can use for her links.
-    const linkableID = title.trim()
-                            .replace(/[^\w ]+/g,'')
-                            .replace(/ +/g,'-')
-                            .toLowerCase()
+    const linkableID = title
+      .trim()
+      .replace(/[^\w ]+/g,'')
+      .replace(/ +/g,'-')
+      .toLowerCase()
 
     return (
       <div id={linkableID} className="film">
         <div>
-          <img src={`${window.location.href.replace('test', '')}images/posters/webcontent/poster/${poster}`} alt={title} />
+          <img src={`${siteUrl.replace('test', '')}images/posters/webcontent/poster/${poster}`} alt={title} />
         </div>
         <div>
           {
