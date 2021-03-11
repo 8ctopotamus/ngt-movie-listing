@@ -4,15 +4,15 @@ import moment from 'moment'
 const Performance = (props) => {
   // The ombiweb URl needs path to specific theater
   const siteUrl = window.location.href.split('?')[0]
-  let ombiWebPath
+  let omniWebPath
   if (siteUrl.indexOf('avalonmke') !== -1){
-    ombiWebPath = 'avalon'
+    omniWebPath = 'avalon'
   } else if (siteUrl.indexOf('timescinema') !== -1) {
-    ombiWebPath = 'times'
+    omniWebPath = 'times'
   } else if (siteUrl.indexOf('rosebudcinema') !== -1) {
-    ombiWebPath = 'rosebud'
+    omniWebPath = 'rosebud'
   } else if (siteUrl.indexOf('localhost') !== -1) {
-    ombiWebPath = 'avalon'
+    omniWebPath = 'avalon'
   }
 
   function formatShowtime(time) {
@@ -30,10 +30,19 @@ const Performance = (props) => {
     return moment(props.data.date).format('dddd MMM DD')
   }
 
+
+  // You Omniterm purchasing site is no longer https://omniwebticketing.com/avalon
+
+  // https://omniwebticketing5.com/theatre4/
+
+
   const renderShowTimes = () => {
     return props.data.showtimes.map((item, i) => {
+      const href = omniWebPath === 'avalon'
+        ? `https://omniwebticketing5.com/theatre4/${item.url}`
+        : `https://omniwebticketing.com/${omniWebPath}/${item.url}`
       return (
-       <a href={`https://omniwebticketing.com/${ombiWebPath}/${item.url}`}
+       <a href={href}
           className="performance-link"
           style={{ background: props.color }}
           target="_blank"
