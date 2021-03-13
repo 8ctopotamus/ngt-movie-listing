@@ -39,7 +39,7 @@ const Performance = (props) => {
   const renderShowTimes = () => {
     return props.data.showtimes.map((item, i) => {
       const href = omniWebPath === 'avalon'
-        ? `https://omniwebticketing5.com/theatre4/${item.url}`
+        ? `https://omniwebticketing6.com/avalon/${item.url}`
         : `https://omniwebticketing.com/${omniWebPath}/${item.url}`
       return (
        <a href={href}
